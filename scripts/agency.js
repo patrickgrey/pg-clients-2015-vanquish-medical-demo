@@ -35,5 +35,5 @@ $('body > *').not('nav').click(function() {
 $('.vm-bg-changer').click(function(e) {
     e.preventDefault();
     console.log($(this).text());
-    $('header').css({'background-image': 'url(../images/header/bg-'+$(this).text()+'.jpg)'});
+    $('header').css({'background-image': 'url(images/header/bg-'+$(this).text()+'.jpg)'});
 });
